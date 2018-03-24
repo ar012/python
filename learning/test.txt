@@ -1,0 +1,176 @@
+>>> file = 'test.txt'
+>>> fp = open(file, 'w')
+>>> fp
+<_io.TextIOWrapper name='test.txt' mode='w' encoding='UTF-8'>
+>>> fp.write("This is the first line")
+22
+>>> fp.close()
+>>> exit()
+abdurrazzak@ws06:~/learnpython$ ls
+add.py  functiondef.py  hello.py  README.md  test.txt
+abdurrazzak@ws06:~/learnpython$ cat test.txt
+This is the first lineabdurrazzak@ws06:~/learnpython$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01)
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> fl = 'test.txt'
+>>> fp2 = open(fl, 'a')
+>>> fp2
+<_io.TextIOWrapper name='test.txt' mode='a' encoding='UTF-8'>
+>>> fp2.write("This is the second line\n")
+24
+>>> fp2.close()
+>>> fp
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fp' is not defined
+>>> fp2
+<_io.TextIOWrapper name='test.txt' mode='a' encoding='UTF-8'>
+>>> fp2 = open(file, 'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'file' is not defined
+>>> fp2 = open(fl, 'r')
+>>> fp2.read()
+'This is the first lineThis is the second line\n'
+>>>
+>>>
+>>> fp2.close()
+>>>
+>>>
+>>> file = 'test'txt'
+  File "<stdin>", line 1
+    file = 'test'txt'
+                   ^
+SyntaxError: invalid syntax
+>>> file = 'test.txt'
+>>>
+>>> file
+'test.txt'
+>>> fp = open(file, 'w')
+>>>
+>>> fp.write(
+...
+KeyboardInterrupt
+>>> fp.write("This is 1st line\n")
+17
+>>> fp.write("This is the second line\nThis is 3rd line\n")
+41
+>>> fp.close()
+>>> fp.open(file, 'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'open'
+>>> fp = open(file, 'r')
+>>> fp.read()
+'This is 1st line\nThis is the second line\nThis is 3rd line\n'
+>>>
+abdurrazzak@ws06:~/learnpython$ cat test.txt
+This is 1st line
+This is the second line
+This is 3rd line
+abdurrazzak@ws06:~/learnpython$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01)
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> file = 'text.txt'
+>>> fp = open(file, 'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'text.txt'
+>>> file = 'test.txt'
+>>>
+>>>
+>>>
+>>> fp = open(file, 'r')
+>>>
+>>>
+>>> fp.readlines()
+['This is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>> fp.readlines()
+[]
+>>> fp.seek(0)
+0
+>>> fp.readlines()
+['This is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>> fp.readlines()
+[]
+>>> fp.seek(0)
+0
+>>> fp.readlines()
+['This is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>> fp.seek(1)
+1
+>>> fp.readlines()
+['his is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>> fp.seek(5)
+5
+>>> fp.readlines()
+['is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>> fp.seek(0)
+0
+>>> fp.readlines()
+['This is 1st line\n', 'This is the second line\n', 'This is 3rd line\n']
+>>>
+>>>
+>>> for line in fp:
+...     print(line)
+...
+>>>
+>>>
+>>>
+>>> file
+'test.txt'
+>>> with open(file, 'r') as fp:
+...     fp.open()
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'open'
+>>> with open(file, 'r') as fp:
+...     fp.read()
+...
+'This is 1st line\nThis is the second line\nThis is 3rd line\n'
+>>> file
+'test.txt'
+>>> with open(file, 'r
+  File "<stdin>", line 1
+    with open(file, 'r
+                     ^
+SyntaxError: EOL while scanning string literal
+>>> with open(file, 'r')
+  File "<stdin>", line 1
+    with open(file, 'r')
+                       ^
+SyntaxError: invalid syntax
+>>> with open(file, 'r') as fp:
+...     fp.read()
+...
+'This is 1st line\nThis is the second line\nThis is 3rd line\n'
+>>>
+>>>
+>>>
+>>>
+>>> fp.closed
+True
+>>> fp.open
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'open'
+>>> fp.opened
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'opened'
+>>>
+>>>
+>>> with open(file, 'r') as fp:
+...     data = fp.read()
+...     print(data)
+...
+This is 1st line
+This is the second line
+This is 3rd line
+
+>>>
