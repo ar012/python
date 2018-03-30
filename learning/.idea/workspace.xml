@@ -140,6 +140,7 @@
   </component>
   <component name="RunManager" selected="Python.generator">
     <configuration name="class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -150,7 +151,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -158,6 +158,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -168,7 +169,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -176,6 +176,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="iteration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -186,7 +187,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iteration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -194,6 +194,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="oopsRectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -204,7 +205,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oopsRectangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -212,6 +212,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="oopsquare3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -222,32 +223,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oopsquare3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.oopsquare3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.oopsRectangle" />
-      <item index="2" class="java.lang.String" itemvalue="Python.class" />
-      <item index="3" class="java.lang.String" itemvalue="Python.iteration" />
-      <item index="4" class="java.lang.String" itemvalue="Python.generator" />
+    <list>
+      <item itemvalue="Python.oopsquare3" />
+      <item itemvalue="Python.oopsRectangle" />
+      <item itemvalue="Python.class" />
+      <item itemvalue="Python.iteration" />
+      <item itemvalue="Python.generator" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.generator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.iteration" />
-        <item index="2" class="java.lang.String" itemvalue="Python.class" />
-        <item index="3" class="java.lang.String" itemvalue="Python.oopsRectangle" />
-        <item index="4" class="java.lang.String" itemvalue="Python.oopsquare3" />
+      <list>
+        <item itemvalue="Python.generator" />
+        <item itemvalue="Python.iteration" />
+        <item itemvalue="Python.class" />
+        <item itemvalue="Python.oopsRectangle" />
+        <item itemvalue="Python.oopsquare3" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
