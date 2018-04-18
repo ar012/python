@@ -12,3 +12,9 @@ except ZeroDivisionError:
 except (ValueError, TypeError):
     print("Type or Value error occured")
 
+print("\nException Handling")
+try:
+    word = "spam"
+    print(word/0)
+except:
+    print("An error occurred")

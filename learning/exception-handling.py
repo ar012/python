@@ -13,10 +13,4 @@ except ZeroDivisionError:
 except ValueError:
     print("Value error occurred")
 
-print("\nException Handling")
-try:
-    word = "spam"
-    print(word/0)
-except:
-    print("An error occurred")
 
