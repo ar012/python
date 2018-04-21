@@ -11,11 +11,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="operator_Overloading.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="operator_Overloading.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/operator_Overloading.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_Monster-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_Monster-2.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object_live_cycle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/object_live_cycle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -32,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/while.py" />
         <option value="$PROJECT_DIR$/while_loop.py" />
         <option value="$PROJECT_DIR$/for_loop.py" />
         <option value="$PROJECT_DIR$/while_for.py" />
@@ -83,20 +100,22 @@
         <option value="$PROJECT_DIR$/multiple_inheritnce.py" />
         <option value="$PROJECT_DIR$/operatorOverloading.py" />
         <option value="$PROJECT_DIR$/operator_Overloading.py" />
+        <option value="$PROJECT_DIR$/object_live_cycle.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="83" />
-    <option name="y" value="299" />
-    <option name="width" value="1299" />
-    <option name="height" value="688" />
+    <option name="x" value="156" />
+    <option name="y" value="237" />
+    <option name="width" value="1297" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,7 +127,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.operator_Overloading">
+  <component name="RunManager" selected="Python.object_live_cycle">
     <configuration name="class_Monster-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,24 +166,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_Monster-2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="class_Monster" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_Monster.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,6 +207,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="object_live_cycle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_live_cycle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="operator_Overloading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,19 +244,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.class_Monster" />
       <item itemvalue="Python.class_Monster-2" />
       <item itemvalue="Python.inheritance_Monstaer" />
       <item itemvalue="Python.multiple_inheritnce" />
       <item itemvalue="Python.operator_Overloading" />
+      <item itemvalue="Python.object_live_cycle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.object_live_cycle" />
         <item itemvalue="Python.operator_Overloading" />
         <item itemvalue="Python.multiple_inheritnce" />
         <item itemvalue="Python.inheritance_Monstaer" />
         <item itemvalue="Python.class_Monster-2" />
-        <item itemvalue="Python.class_Monster" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +277,12 @@
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1436464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14601421" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32970452" />
-      <window_info anchor="right" x="63" y="262" width="1292" height="227" id="Run" order="3" weight="0.2273086" />
+      <window_info active="true" anchor="right" x="63" y="262" width="1292" height="227" id="Run" order="3" visible="true" weight="0.2273086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.7293935" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -282,13 +300,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/while.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/range.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -597,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_Monster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inheritance_Monstaer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -618,24 +622,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operatorOverloading.py">
+    <entry file="file://$PROJECT_DIR$/operatorOverloading.py" />
+    <entry file="file://$PROJECT_DIR$/class_Monster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_Monster-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state relative-caret-position="36">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/operator_Overloading.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_Monster-2.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_live_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="12" />
         </state>
       </provider>
     </entry>
