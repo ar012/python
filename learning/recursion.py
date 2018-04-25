@@ -1,3 +1,4 @@
+# find out factorial of a number:
 
 def factorial(x):
     if x == 1:
